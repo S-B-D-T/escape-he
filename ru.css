@@ -7,45 +7,51 @@
 }
 
 .u-section-1 .u-group-elements-1 {
-  width: 84px;
-  min-height: 21px;
-  margin: 5px 243px 0 auto;
+  width: 108px;
+  min-height: 19px;
+  margin: 72px 11px 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
-  border-style: solid;
   font-size: 0.75rem;
-  margin: 0 44px 0 0;
-  padding: 0;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0 auto;
+  padding: 0 7px;
 }
 
 .u-section-1 .u-btn-2 {
-  border-style: solid;
   font-size: 0.75rem;
-  margin: -21px 0 0 auto;
+  letter-spacing: 1px;
+  border-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: -19px 49px 0 0;
   padding: 0;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 2.25rem;
   font-weight: 700;
-  margin: 17px auto 0;
+  margin: 3px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   width: 654px;
-  margin: 1px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 16px;
-  margin-bottom: 21px;
+  width: 1140px;
+  margin: 26px auto 11px -11px;
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 13.3333px));
-  min-height: 375px;
-  grid-gap: 20px;
+  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+  min-height: 752px;
+  grid-gap: 20px 20px;
 }
 
 .u-section-1 .u-image-1 {
@@ -129,27 +135,26 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1070px;
+    min-height: 1096px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    height: auto;
+    margin-top: 83px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 48px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 5px;
+    margin-top: -8px;
   }
 
   .u-section-1 .u-list-1 {
-    margin-top: 26px;
-    margin-bottom: 0;
+    width: 940px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-repeater-1 {
-    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     min-height: 901px;
-    grid-gap: 20px 20px;
   }
 }
 
@@ -158,27 +163,12 @@
     min-height: 1555px;
   }
 
-  .u-section-1 .u-group-elements-1 {
-    height: auto;
-    margin-top: 0;
-    margin-right: 134px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
-    margin-top: 106px;
-  }
-
-  .u-section-1 .u-text-2 {
-    width: auto;
-    margin-top: 22px;
-    margin-left: 33px;
-    margin-right: 33px;
   }
 
   .u-section-1 .u-list-1 {
-    margin-top: 40px;
-    margin-bottom: 42px;
+    width: 720px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -239,28 +229,30 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1840px;
+    min-height: 1841px;
   }
 
   .u-section-1 .u-group-elements-1 {
-    margin-right: 80px;
+    margin-top: 65px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 79px;
+    width: auto;
+    margin-top: 18px;
     margin-left: 44px;
     margin-right: 44px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 8px;
+    width: auto;
+    margin-top: 3px;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-1 .u-list-1 {
-    margin-top: 22px;
-    margin-bottom: 0;
+    width: 540px;
+    margin-top: 15px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -327,6 +319,10 @@
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 189px;
@@ -1280,7 +1276,7 @@
 .u-section-6 .u-image-1 {
   height: 223px;
   width: 223px;
-  background-image: url("/images/successful-old-businessman-suit-glasses-looking-confident.jpg");
+  background-image: url("/images/photo1683672140.jpeg");
   background-position: 50% 50%;
   margin: 10px auto 0;
 }
@@ -1303,8 +1299,8 @@
 .u-section-6 .u-image-2 {
   height: 223px;
   width: 223px;
-  background-image: url("/images/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg");
-  background-position: 24.89% 50%;
+  background-image: url("/images/photo1683672095.jpeg");
+  background-position: 50% 50%;
   margin: 10px auto 0;
 }
 
@@ -1326,7 +1322,7 @@
 .u-section-6 .u-image-3 {
   height: 223px;
   width: 223px;
-  background-image: url("/images/business-sucessful-businessman-working-with-laptop-using-computer-smiling-standing.jpg");
+  background-image: url("/images/photo1683672120.jpeg");
   background-position: 50% 50%;
   margin: 10px auto 0;
 }
@@ -1349,7 +1345,7 @@
 .u-section-6 .u-image-4 {
   height: 223px;
   width: 223px;
-  background-image: url("/images/woman-sitting-sofa-with-laptop-legs.jpg");
+  background-image: url("/images/photo1683672155.jpeg");
   background-position: 50% 50%;
   margin: 10px auto 0;
 }
